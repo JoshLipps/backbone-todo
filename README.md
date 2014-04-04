@@ -1,6 +1,7 @@
-
-Todo Backbone Example:
+backbone-todo
 __
+
+Todo App Example using backbone and localstorage
 
 ### Shamelessly based on this exercise:
 
@@ -14,3 +15,4 @@ http://addyosmani.github.io/backbone-fundamentals/#exercise-1-todos---your-first
 * way to mark a todo as completed
 * way to delete todos
 * way to filter the items that have been completed or are remaining
+
