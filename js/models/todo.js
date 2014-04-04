@@ -1,4 +1,4 @@
-// js/todo/todo.js
+// js/models/todo.js
 
 var app = app || {};
 
@@ -17,7 +17,7 @@ app.Todo = Backbone.Model.extend({
   //toggle 'completed' state
   toggle: function() {
     this.save({
-      completed = !this.get('completed')
+      completed: !this.get('completed')
     });
   }
 })
